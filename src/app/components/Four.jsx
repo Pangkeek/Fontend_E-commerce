@@ -59,7 +59,7 @@ function Four() {
             viewport={{ once: true }}
           >
             <p className="text-white mt-4">
-              Company that's grown from 270 to 480 employees in
+              Company that&apos;s grown from 270 to 480 employees in
             </p>
           </motion.div>
           <motion.div
@@ -89,6 +89,7 @@ function Four() {
             src="/headphones-isolated-background-3d-rendering-illustration_494250-111255-removebg-preview.png"
             width={600}
             height={100}
+            alt="Red_heaphone"
           />
         </motion.div>
       </div>

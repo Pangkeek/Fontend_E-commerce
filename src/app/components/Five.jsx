@@ -69,12 +69,14 @@ function Five() {
                 src="/sale-svgrepo-com (2).svg"
                 width={60}
                 height={100}
+                alt="Discount"
               />
               <Image
                 className=""
                 src="/Background (4).png"
                 width={150}
                 height={100}
+                alt="Black_headphone"
               />
             </div>
             <p className="mt-6 font-medium">Beats black noir</p>
@@ -100,12 +102,14 @@ function Five() {
                 src="/sale-svgrepo-com (2).svg"
                 width={60}
                 height={100}
+                alt="Discount"
               />
               <Image
                 className="place-content-center"
                 src="/360_F_581813566_e4ywdbkTYvxMbcDOL6ejx5WcYdySQeZj-removebg-preview.png"
                 width={180}
                 height={100}
+                alt="Black_headpohne"
               />
             </div>
             <p className="mt-6 font-medium">Beadsound black tiger</p>
@@ -131,6 +135,7 @@ function Five() {
                 src="/virtual-reality-or-vr-headset-isolated-on-transparent-background-vr-glasses-for-360-environment-games-or-simulation-training-generative-ai-free-png (1).webp"
                 width={180}
                 height={100}
+                alt="VR"
               />
             </div>
             <p className="mt-6 font-medium">Vision wanda</p>
@@ -151,6 +156,7 @@ function Five() {
                 src="/laptoppng.parspng.com-5.png"
                 width={300}
                 height={100}
+                alt="Macbook"
               />
             </div>
             <p className="mt-6 font-medium">Apple newton</p>
@@ -171,6 +177,7 @@ function Five() {
                 src="/pngimg.com - headphones_PNG101920.png"
                 width={185}
                 height={100}
+                alt="Blue_headphone"
               />
             </div>
             <p className="mt-6 font-medium">JBL aquaman</p>
@@ -191,6 +198,7 @@ function Five() {
                 src="/Background (5).png"
                 width={230}
                 height={100}
+                alt="Marshall"
               />
             </div>
             <p className="mt-6 font-medium">Marshall big ass</p>
@@ -211,6 +219,7 @@ function Five() {
                 src="/beats-dre-headphones-speakers-and-accessories-currys-25.png"
                 width={215}
                 height={100}
+                alt="BlackGold_headphone"
               />
             </div>
             <p className="mt-6 font-medium">Beats luxury gold</p>
@@ -231,6 +240,7 @@ function Five() {
                 src="/pngtree-the-smartwatch-banner-png-image_11919210.png"
                 width={180}
                 height={100}
+                alt="Smartwatch"
               />
             </div>
             <p className="mt-6 font-medium">Apple watch time</p>

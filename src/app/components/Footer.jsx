@@ -19,24 +19,28 @@ function Footer() {
             src="/instagram-svgrepo-com.svg"
             width={25}
             height={100}
+            alt="IG"
           />
           <Image
             className="mr-8"
             src="/linkedin-161-svgrepo-com.svg"
             width={20}
             height={100}
+            alt="LikeIn"
           />
           <Image
             className="mr-8"
             src="/facebook-176-svgrepo-com.svg"
             width={20}
             height={100}
+            alt="Facebook"
           />
           <Image
             className=""
             src="/twitter-154-svgrepo-com.svg"
             width={20}
             height={100}
+            alt="Twitter"
           />
         </div>
       </div>

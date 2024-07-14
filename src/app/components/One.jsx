@@ -83,6 +83,7 @@ function One() {
               src="/61Xvn9KUgYL._AC_SL1500___95106-removebg-preview.png"
               width={500}
               height={100}
+              alt="Headphone"
             />
           </motion.div>
         </div>

@@ -15,6 +15,7 @@ function Seven() {
             src="/dFQROr7oWzulq5Fa5nocDzzu5KP6CD83AJ7CUWtyfmgASiinHC1FKsSgGLRzvAiqOcW.jpg"
             width={420}
             height={100}
+            alt="News1"
           />
           <div className="mt-8">
             <p>October 20, 2024</p>
@@ -30,6 +31,7 @@ function Seven() {
             src="/iphone_buy__chvehwtfgamq_og.jpg"
             width={450}
             height={100}
+            alt="News2"
           />
           <div className="mt-8">
             <p>October 20, 2024</p>
@@ -45,6 +47,7 @@ function Seven() {
             src="/_VR.jpg"
             width={430}
             height={100}
+            alt="News3"
           />
           <div className="mt-8">
             <p>October 20, 2024</p>

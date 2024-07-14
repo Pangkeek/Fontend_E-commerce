@@ -118,6 +118,7 @@ function Two() {
               src="/Hublot-Big-Bang-Unico-Yellow-Magic-Ceramic-Chronograph-2021-Watch-6-removebg-preview.png"
               width={800}
               height={800}
+              alt="Yellow_watch"
             />
           </div>
         </div>
@@ -145,6 +146,7 @@ function Two() {
               src="/view-3d-laptop-device-with-screen-keyboard-removebg-preview.png"
               width={450}
               height={800}
+              alt="Red_laptop"
             />
           </div>
         </div>
@@ -171,6 +173,7 @@ function Two() {
                 src="/ps5-product-thumbnail-01-en-14sep21.webp"
                 width={700}
                 height={800}
+                alt="PS5"
               />
             </div>
           </div>
@@ -198,6 +201,7 @@ function Two() {
               src="/section3b-headset.webp"
               width={300}
               height={100}
+              alt="VR"
             />
           </div>
         </div>
@@ -224,6 +228,7 @@ function Two() {
               src="/2_JBL_FLIP6_3_4_RIGHT_BLUE_30192_x1-706491_4a9616e9-33a8-4bfe-b027-e433ca41e189-756422.webp"
               width={400}
               height={100}
+              alt="Blue_jbl"
             />
           </div>
         </div>

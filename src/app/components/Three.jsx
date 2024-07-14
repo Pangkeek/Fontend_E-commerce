@@ -50,6 +50,7 @@ function Three() {
               src="/shipping-fast-solid-svgrepo-com (1).svg"
               width={60}
               height={100}
+              alt="Shipping"
             />
             <div className="content-center">
               <p className="font-bold">Free Shipping</p>
@@ -72,6 +73,7 @@ function Three() {
               src="/guarantee-svgrepo-com (1).svg"
               width={60}
               height={100}
+              alt="Guarantee"
             />
             <div className="content-center">
               <p className="font-bold">Free Shipping</p>
@@ -94,6 +96,7 @@ function Three() {
               src="/support-svgrepo-com (1).svg"
               width={60}
               height={100}
+              alt="Support"
             />
             <div className="content-center">
               <p className="font-bold">Free Shipping</p>
@@ -116,6 +119,7 @@ function Three() {
               src="/payment-card-svgrepo-com (1).svg"
               width={60}
               height={100}
+              alt="Payment"
             />
             <div className="content-center">
               <p className="font-bold">Free Shipping</p>

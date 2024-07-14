@@ -32,7 +32,7 @@ function Six() {
           <p className="text-white">Beats Solo Air</p>
           <p className="text-white text-5xl font-bold mt-4">Summer Sale</p>
           <p className="text-white mt-4">
-            Company that's grown from 270 to 480 employees in
+            Company that&apos;s grown from 270 to 480 employees in
           </p>
           <p className="text-white mb-12">the last 12 months.</p>
           <a className="text-[15px] text-green-500 py-3 px-9 bg-white rounded-[30px] transform transition hover:bg-green-400 hover:text-white">
@@ -57,6 +57,7 @@ function Six() {
           src="/SB05G104_sa200_er005.avif"
           width={450}
           height={100}
+          alt="Green_watch"
         />
         </motion.div>
       </div>
