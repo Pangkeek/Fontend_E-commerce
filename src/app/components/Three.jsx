@@ -35,8 +35,8 @@ function Three() {
     },
   };
   return (
-    <div className="container mx-auto">
-      <div className="flex justify-evenly mt-16">
+    <div className="container mx-auto px-4 md:px-0">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 justify-items-center mt-16">
         <motion.div
           variants={show1}
           initial="initial"

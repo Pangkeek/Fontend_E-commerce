@@ -62,7 +62,7 @@ function Two() {
   };
 
   return (
-    <div className="container mx-auto grid grid-cols-4 gap-8 mt-10">
+    <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8 mt-10 px-4 md:px-0">
       <motion.div
         variants={leftslide3}
         initial="initial"
@@ -70,8 +70,8 @@ function Two() {
         whileHover="hover"
         viewport={{ once: true }}
       >
-        <div className="bg-neutral-800 rounded-[25px] relative">
-          <div className="px-[30px] pb-[70px] pt-[180px] relative">
+        <div className="bg-neutral-800 rounded-[25px] relative overflow-hidden">
+          <div className="px-6 pb-12 pt-32 md:px-[30px] md:pb-[70px] md:pt-[180px] relative">
             <p className="text-white text-xl z-30 relative">Enjoy</p>
             <p className="text-white text-3xl font-bold mt-2 z-30 relative">
               With
@@ -84,12 +84,12 @@ function Two() {
                 Browse
               </a>
             </div>
-            <div className="absolute top-[100px] w-full flex justify-center z-10">
+            <div className="absolute top-[50%] right-[-20%] md:top-[100px] md:right-auto md:w-full flex md:justify-center z-10 w-[200px] md:w-auto opacity-50 md:opacity-100 pointer-events-none">
               <Image
                 src="/earphonee-removebg-preview.png"
                 width={800}
                 height={800}
-                className="w-auto"
+                className="w-full h-auto md:w-auto"
                 alt="Earphone Image"
               />
             </div>
@@ -103,8 +103,8 @@ function Two() {
         whileHover="hover"
         viewport={{ once: true }}
       >
-        <div className="bg-yellow-400 rounded-[25px]">
-          <div className="px-[30px] pb-[70px] pt-[180px] relative">
+        <div className="bg-yellow-400 rounded-[25px] relative overflow-hidden">
+          <div className="px-6 pb-12 pt-32 md:px-[30px] md:pb-[70px] md:pt-[180px] relative">
             <p className="text-white text-xl">New</p>
             <p className="text-white text-3xl font-bold mt-2">Wear</p>
             <p className="text-yellow-200 text-5xl font-black mt-2">GADGET</p>
@@ -114,7 +114,7 @@ function Two() {
               </a>
             </div>
             <Image
-              className="absolute top-[70px] z-10"
+              className="absolute top-[40%] right-[-20%] md:top-[70px] md:right-auto z-10 w-[200px] md:w-[800px] h-auto opacity-50 md:opacity-100 pointer-events-none"
               src="/Hublot-Big-Bang-Unico-Yellow-Magic-Ceramic-Chronograph-2021-Watch-6-removebg-preview.png"
               width={800}
               height={800}
@@ -124,15 +124,15 @@ function Two() {
         </div>
       </motion.div>
       <motion.div
-        className="col-span-2"
+        className="col-span-1 md:col-span-2"
         variants={leftslide1}
         initial="initial"
         whileInView="whileInView"
         whileHover="hover"
         viewport={{ once: true }}
       >
-        <div className="col-span-2 bg-red-600 rounded-[25px]">
-          <div className="px-[90px] pb-[70px] pt-[180px] relative">
+        <div className="col-span-1 md:col-span-2 bg-red-600 rounded-[25px] relative overflow-hidden">
+          <div className="px-6 pb-12 pt-32 md:px-[90px] md:pb-[70px] md:pt-[180px] relative">
             <p className="text-white text-xl">Trend</p>
             <p className="text-white text-3xl font-bold mt-2">Devices</p>
             <p className="text-red-400 text-5xl font-black mt-2">LAPTOP</p>
@@ -142,7 +142,7 @@ function Two() {
               </a>
             </div>
             <Image
-              className="absolute top-[0px] right-[15px] z-10"
+              className="absolute top-[20%] right-[-10%] md:top-[0px] md:right-[15px] z-10 w-[250px] md:w-[450px] h-auto opacity-50 md:opacity-100 pointer-events-none"
               src="/view-3d-laptop-device-with-screen-keyboard-removebg-preview.png"
               width={450}
               height={800}
@@ -156,11 +156,11 @@ function Two() {
         initial="initial"
         whileInView="whileInView"
         whileHover="hover"
-        className="col-span-2"
+        className="col-span-1 md:col-span-2"
         viewport={{ once: true }}
       >
-        <div className="col-span-2 bg-gray-200 rounded-[25px] z-0">
-          <div className="px-[90px] pb-[125px] pt-[125px] relative">
+        <div className="col-span-1 md:col-span-2 bg-gray-200 rounded-[25px] z-0 relative overflow-hidden">
+          <div className="px-6 pb-12 pt-32 md:px-[90px] md:pb-[125px] md:pt-[125px] relative">
             <p className="text-black text-xl">Best</p>
             <p className="text-black text-3xl font-bold mt-2">Gaming</p>
             <p className="text-white text-5xl font-black mt-2">CONSOLE</p>
@@ -169,7 +169,7 @@ function Two() {
                 Browse
               </a>
               <Image
-                className="absolute top-[30px] left-[180px] z-10"
+                className="absolute top-[30%] right-[-10%] md:top-[30px] md:left-[180px] md:right-auto z-10 w-[250px] md:w-[700px] h-auto opacity-50 md:opacity-100 pointer-events-none"
                 src="/ps5-product-thumbnail-01-en-14sep21.webp"
                 width={700}
                 height={800}
@@ -186,8 +186,8 @@ function Two() {
         whileHover="hover"
         viewport={{ once: true }}
       >
-        <div className="bg-green-500 rounded-[25px] z-0">
-          <div className="px-[30px] pb-[180px] pt-[70px] relative">
+        <div className="bg-green-500 rounded-[25px] z-0 relative overflow-hidden">
+          <div className="px-6 pb-32 pt-12 md:px-[30px] md:pb-[180px] md:pt-[70px] relative">
             <p className="text-white text-xl">Play</p>
             <p className="text-white text-3xl font-bold mt-2">Game</p>
             <p className="text-green-300 text-5xl font-black mt-2">OCULUS</p>
@@ -197,7 +197,7 @@ function Two() {
               </a>
             </div>
             <Image
-              className="absolute top-[220px] left-[60px] z-10"
+              className="absolute bottom-[10%] right-[-10%] md:top-[220px] md:bottom-auto md:left-[60px] md:right-auto z-10 w-[150px] md:w-[300px] h-auto pointer-events-none"
               src="/section3b-headset.webp"
               width={300}
               height={100}
@@ -213,8 +213,8 @@ function Two() {
         whileHover="hover"
         viewport={{ once: true }}
       >
-        <div className="bg-sky-500 rounded-[25px] z-0">
-          <div className="px-[30px] pb-[180px] pt-[70px] relative">
+        <div className="bg-sky-500 rounded-[25px] z-0 relative overflow-hidden">
+          <div className="px-6 pb-32 pt-12 md:px-[30px] md:pb-[180px] md:pt-[70px] relative">
             <p className="text-white text-xl">New</p>
             <p className="text-white text-3xl font-bold mt-2">Amazon</p>
             <p className="text-sky-300 text-5xl font-black mt-2">SPEAKER</p>
@@ -224,7 +224,7 @@ function Two() {
               </a>
             </div>
             <Image
-              className="absolute top-[150px] left-[0px] z-10"
+              className="absolute bottom-[10%] right-[-10%] md:top-[150px] md:bottom-auto md:left-[0px] md:right-auto z-10 w-[200px] md:w-[400px] h-auto pointer-events-none"
               src="/2_JBL_FLIP6_3_4_RIGHT_BLUE_30192_x1-706491_4a9616e9-33a8-4bfe-b027-e433ca41e189-756422.webp"
               width={400}
               height={100}

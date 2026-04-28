@@ -3,15 +3,15 @@ import Image from "next/image";
 
 function Seven() {
   return (
-    <div className="container mx-auto mt-36">
+    <div className="container mx-auto mt-20 md:mt-36 px-4 md:px-0">
       <div className="text-center">
         <p className="text-5xl font-bold">Recent News</p>
         <p className="text-gray-500 mt-6">there are many variations passages</p>
       </div>
-      <div className="flex justify-between mt-16">
+      <div className="flex flex-col md:flex-row justify-between mt-16 gap-8 md:gap-4">
         <div>
           <Image
-            className="rounded-[25px]"
+            className="rounded-[25px] w-full h-auto object-cover"
             src="/dFQROr7oWzulq5Fa5nocDzzu5KP6CD83AJ7CUWtyfmgASiinHC1FKsSgGLRzvAiqOcW.jpg"
             width={420}
             height={100}

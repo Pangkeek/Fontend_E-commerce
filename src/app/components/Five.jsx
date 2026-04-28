@@ -47,14 +47,14 @@ function Five() {
     hover: { scale: 1.1 },
   };
   return (
-    <div className="container mx-auto mt-40">
+    <div className="container mx-auto mt-20 md:mt-40 px-4 md:px-0">
       <div className="text-center">
         <p className="text-5xl font-bold">Best Seller Products</p>
         <p className="text-gray-500 mt-6">
           speakerThere are many variations passages
         </p>
       </div>
-      <div className="grid grid-cols-4 gap-14 my-24">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-14 my-12 md:my-24">
         <motion.div
           variants={pop1}
           initial={"initial"}

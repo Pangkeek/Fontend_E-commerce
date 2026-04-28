@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <div className="container mx-auto flex justify-between mb-20">
+    <div className="container mx-auto flex flex-col lg:flex-row justify-between mb-20 px-4 md:px-0 gap-10 lg:gap-0">
       <div>
         <p className="text-red-600 text-2xl mr-10 content-center tracking-[8px]">
           PHLOX
@@ -62,9 +62,9 @@ function Footer() {
       <div>
         <p className="font-bold">Subscribe To Our Email</p>
         <p className="text-3xl font-bold mt-6">For Lastest News & Updates</p>
-        <form className="bg-gray-200 rounded-full mt-6">
-            <input className="bg-transparent font-serif my-5 mx-10 outline-none border-none" placeholder="Enter Your Email"></input>
-            <button className="font-serif bg-red-600 text-white rounded-full py-3 px-8 ml-3">Subscribe</button>
+        <form className="bg-gray-200 rounded-[25px] md:rounded-full mt-6 flex flex-col md:flex-row p-2 md:p-0">
+            <input className="bg-transparent font-serif my-3 mx-4 md:my-5 md:mx-10 outline-none border-none w-full md:w-auto flex-1" placeholder="Enter Your Email"></input>
+            <button className="font-serif bg-red-600 text-white rounded-full py-3 px-8 md:ml-3 w-full md:w-auto mt-2 md:mt-0">Subscribe</button>
         </form>
       </div>
     </div>
